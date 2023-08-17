@@ -9,11 +9,11 @@
 
 void print_line(int n)
 {
-	int lnchr;
+	int lnchr;i
 
 	if (n <= 0)
 		_putchar('\n');
-	elsie
+	else
 	{
 		for (lnchr = 1; lnchr <= n; lnchr++)
 			_putchar('_');
