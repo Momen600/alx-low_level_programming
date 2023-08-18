@@ -16,10 +16,10 @@ void print_diagonal(int n)
 			_putchar('\n');
 		else
 		{
-			for (number = 0; number <= n; number++)
+			for (number = 1; number <= n; number++)
 			{
-				for (space = 0; space < number, space)
-					_putchar(' ');
+				for (space = 1; space <= number, space)
+						_putchar(' ');
 					_putchar(92); /*is equal to '/' char*/
 					_putchar('\n');
 			}
