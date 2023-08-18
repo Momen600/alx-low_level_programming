@@ -2,10 +2,10 @@
 
 /**
  * main - print numbers 1 - 100 followed by a new line
- * number that are multiples of 3 print fizz
- * number that are multiples of 5 print buzz
- * number that are multiples of 3 print fizzbuzz
- * each number and word to beseparted by space
+ * number that are multiples of 3 print Fizz
+ * number that are multiples of 5 print Buzz
+ * number that are multiples of 3 print FizzBuzz
+ * each number and word to be separated by space
  * Return: Always 0 (sucsess)
 */
 
