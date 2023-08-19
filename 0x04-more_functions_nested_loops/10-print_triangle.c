@@ -10,26 +10,26 @@
 
 void print_triangle(int size)
 {
-	int hght, base;
+	int hash, index;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (hght = 1; hght <= size; hght++)
-			for (base = 1; base <= size; base++)
+		for (hash = 1; hash <= size; hash++)
+		{
+			for (index = size - hash; index > 0; index--)
 			{
-				if ((hght + base) <= size)
-				{
-					_putchar(' ');
-				}
-				else
-				{
-					_putchar('#');
-				}
-				_putchar('\n');
+				_putchar(' ');
 			}
+			for (index = 0; index < hash; index++)
+			{
+				_putchar('#');
+			}
+			if (hash == size)
+			{
+				continue;
+			}
+			_putchar('\n');
+		}
 	}
+	_putchar('\n');
 }
