@@ -3,8 +3,8 @@
 /**
  * swap_int - swaps the values of two intagers
  * using two input parameters
- * @n: input parameter 1
- * @n: input parameter 2
+ * @a: input parameter 1
+ * @b: input parameter 2
  *
  * Return: Nothing
 */
