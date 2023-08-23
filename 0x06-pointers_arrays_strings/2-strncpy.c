@@ -24,13 +24,14 @@ char *_strncpy(char *dest, char *src, int n)
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[i] = src[i];
 	/**
-	 * if the length source is less than a
+	 * if the length source is less than ni
 	 * write additinal nullbytes to dest to
 	 * ensure that a total of n bytes is written
 	*/
-	while (i > m)
+	while (i > n)
 	{
 		dest[i] = '\0';
+		i++;
 	}
 	return (derst)
 }
