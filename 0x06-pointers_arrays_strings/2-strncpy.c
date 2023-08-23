@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	/**
 	 * iterate through src array
-	 * where is thre is no null byte
+	 * where is there is no null byte
 	 * among the first n bytes of source
 	 * the string placed in dest will not be
 	 * null terminated
