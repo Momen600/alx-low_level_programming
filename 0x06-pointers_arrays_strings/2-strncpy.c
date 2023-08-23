@@ -28,7 +28,7 @@ char *_strncpy(char *dest, char *src, int n)
 	 * write additinal nullbytes to dest to
 	 * ensure that a total of n bytes is written
 	*/
-	while (i > n)
+	while (i < n)
 	{
 		dest[i] = '\0';
 		i++;
