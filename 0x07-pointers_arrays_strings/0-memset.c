@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * *memset - fille memory with a constant.
+ * @s: pointer to put the constant
+ * @b: constant
+ * @n: max bytes to use
+ * Return: pointer s
+*/
+
+char *_memset(char *s, char b, unsigned int n);
+{
+	unsigned int tr;
+
+	for (tr = 0; n > 0; tr++, n--)
+	{
+		s[tr] = b;
+	}
+
+	return (s);
+}
