@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *memset - fille memory with a constant.
+ * *_memset - fille memory with a constant.
  * @s: pointer to put the constant
  * @b: constant
  * @n: max bytes to use
