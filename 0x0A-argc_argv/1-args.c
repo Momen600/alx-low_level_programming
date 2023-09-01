@@ -4,7 +4,7 @@
  * main-print number of arguments passed.
  * @argc:number of commandline arguments.
  * @argv:pointer to an array of command line argument.
- * @return:0-sucess, non-zero-fail.
+ * @Return:0-sucess, non-zero-fail.
 */
 
 int main(int argc, char *argv[] __attribute__((unused)))
