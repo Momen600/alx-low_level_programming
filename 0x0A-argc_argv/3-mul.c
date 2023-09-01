@@ -15,9 +15,9 @@ int main(int argc, char *argv[])
 	if (argc == 3)
 	{
 		sum = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n, sum);
+		printf("%d\n", sum);
 	}
-	elae
+	else
 	{
 		printf("Error\n");
 		return (1);
