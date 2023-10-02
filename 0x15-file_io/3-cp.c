@@ -58,7 +58,7 @@ void close_file(int fd)
  */
 int main(int argc, char *argv[])
 {
-	int from, to, re, wr;
+	int from, to, re, w;
 	char *buffer;
 
 	if (argc != 3)
@@ -81,8 +81,8 @@ int main(int argc, char *argv[])
 			exit(98);
 		}
 
-		wr = write(to, buffer, r);
-		if (to == -1 || wr == -1)
+		w = write(to, buffer, re);
+		if (to == -1 || w == -1)
 		{
 			dprintf(STDERR_FILENO,
 				"Error: Can't write to %s\n", argv[2]);
